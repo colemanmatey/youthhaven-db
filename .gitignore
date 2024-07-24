@@ -30,6 +30,9 @@ bld/
 # Visual Studio Code
 .vscode/
 
+# Visual Studio
+.vs/
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
