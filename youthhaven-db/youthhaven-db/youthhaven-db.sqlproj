@@ -56,5 +56,15 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
+    <Folder Include="schema" />
+    <Folder Include="schema\tables" />
+    <Folder Include="schema\views" />
+    <Folder Include="schema\procedures" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="youthhaven-db.refactorlog" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="schema\tables\User.sql" />
   </ItemGroup>
 </Project>
