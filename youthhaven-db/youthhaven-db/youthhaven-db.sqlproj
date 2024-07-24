@@ -6,7 +6,7 @@
     <Name>youthhaven_db</Name>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
-    <ProjectGuid>{b83081f4-9061-4b45-ae31-446bdbfe5590}</ProjectGuid>
+    <ProjectGuid>{d470a8fb-43e6-4f7b-8ed8-13e065434809}</ProjectGuid>
     <DSP>Microsoft.Data.Tools.Schema.Sql.Sql160DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
