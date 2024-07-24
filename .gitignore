@@ -1,0 +1,90 @@
+# Ignore Visual Studio temporary files, build results, and
+# user-specific files
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files (Mono Auto Generated)
+mono_crash.*
+
+# Auto-generated files
+Generated\
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio Code
+.vscode/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows 10 upgrade
+$Windows.~BT/
+$Windows.~WS/
+
+# Windows Update History
+WindowsUpdate.log
+
+# Windows custom shell extensions
+*.manifest
+*.vspscc
+*.vssscc
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# SQL Server database project files
+*.jfm
+
+# Backup & report files from SQL Server Management Studio
+*.bak
+*.sql~
+*.dbmdl
+
+# SSDT binaries
+*.dacpac
+*.bacpac
+
+# Server-generated files
+sql\
+
+# Test results
+[TestResults]/
+*.trx
+*.testsettings
+*.vsp
+*.vspx
+*.coverage
+*.twr
+*.coveragexml
+*.results
+*.opencover
+*.nunit.xml
+*.coverage.info
+*.codecov.json
+*.coverage.json
