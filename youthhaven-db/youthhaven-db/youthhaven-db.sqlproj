@@ -66,5 +66,6 @@
   </ItemGroup>
   <ItemGroup>
     <Build Include="schema\tables\User.sql" />
+    <Build Include="schema\tables\UserProfile.sql" />
   </ItemGroup>
 </Project>

@@ -14,4 +14,39 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="[CK_User_Role]" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="49c3f163-4f76-4568-a8f6-8753231f05e4" ChangeDateTime="07/26/2024 04:06:28">
+    <Property Name="ElementName" Value="[dbo].[User].[FirstName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[User]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="UserName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7f7abf1a-df4d-4fb1-8ea7-9801855ac883" ChangeDateTime="07/26/2024 04:06:33">
+    <Property Name="ElementName" Value="[dbo].[User].[LastName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[User]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Password" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="2f30490d-a878-4d6d-9cb1-96fcb4d243b4" ChangeDateTime="07/26/2024 04:07:00">
+    <Property Name="ElementName" Value="[dbo].[User].[Role]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[User]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Joined" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c0210596-6fa5-45b8-9311-0b7625a4a825" ChangeDateTime="07/26/2024 04:12:44">
+    <Property Name="ElementName" Value="[dbo].[Profile].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Profile]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ProfileID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b8486d68-4a80-4850-a92b-ac3c18847c20" ChangeDateTime="07/26/2024 04:44:21">
+    <Property Name="ElementName" Value="[dbo].[UserProfile].[Phone]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[UserProfile]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CountryCode" />
+  </Operation>
 </Operations>
